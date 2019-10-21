@@ -14,6 +14,7 @@
     border: 5px solid grey;
     border-radius: 5px;
     font-family: 'Montserrat', sans-serif;
+    box-shadow: 10px 10px 18px #888888;
 }
 
 .screen{
@@ -28,18 +29,32 @@
     border: 1px solid grey;
     border-radius: 5px;
     color: rgb(156, 65, 65);
+    /* 3d effect */
+    border: 5px solid grey;
+    border-width: 0 4px 5px 0;
+    border-radius: 5px;
+    border-color: transparent rgb(218, 205, 191) rgb(245, 224, 203) transparent;
+    /* 3d effect */
 }
 
 .btn:hover{
     background-color: rgb(201, 104, 117);
+    border: none;
 }
 
 .operator{
     background-color: rgb(62, 193, 245);
+    /* 3d effect */
+    background-color: rgb(57, 184, 235);
+    border: 5px solid grey;
+    border-width: 0 4px 5px 0;
+    border-radius: 5px;
+    border-color: transparent rgb(41, 131, 167) rgb(62, 193, 300) transparent;
+    /* 3d effect */
 }
 
 .row1{
-    font-size: 4em;
+    font-size: 3em;
     background-color: black;
     color: white;
     display: grid;
