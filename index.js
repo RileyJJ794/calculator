@@ -7,7 +7,7 @@ var backBtn = document.getElementById('back');
 var displayValue = 0;
 
 const updateDisplayValue = (clickObj) => {
-    const btnText = clickObj.target.innerHTML;
+    const btnText = clickObj.target.innerText;
     console.log(btnText);
 
     if (displayValue === 0) {
@@ -26,7 +26,7 @@ clearBtn.onclick = () => {
 backBtn.onclick = () => {
     var lengthofDisplayVal = displayValue.length;
     console.log(displayValue.length);
-    displayValue = displayValue.slice(0, lengthofDisplayVal - 31);
+    displayValue = displayValue.slice(0, lengthofDisplayVal - 1);
     console.log('bakc button pressed');
     if (displayValue === '') {
         displayValue = 0;
