@@ -7,7 +7,11 @@ var backBtn = document.getElementById('back');
 var displayValue = 0;
 
 const updateDisplayValue = (clickObj) => {
+<<<<<<< HEAD
     const btnText = clickObj.target.innerText;
+=======
+    const btnText = clickObj.target.innerHTML;
+>>>>>>> f645f1ba61206776a6f49a9fabbffdd5cdd20eeb
     console.log(btnText);
 
     if (displayValue === 0) {
@@ -26,7 +30,11 @@ clearBtn.onclick = () => {
 backBtn.onclick = () => {
     var lengthofDisplayVal = displayValue.length;
     console.log(displayValue.length);
+<<<<<<< HEAD
     displayValue = displayValue.slice(0, lengthofDisplayVal - 1);
+=======
+    displayValue = displayValue.slice(0, lengthofDisplayVal - 31);
+>>>>>>> f645f1ba61206776a6f49a9fabbffdd5cdd20eeb
     console.log('bakc button pressed');
     if (displayValue === '') {
         displayValue = 0;
